@@ -1,0 +1,107 @@
+/*body {
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+     background-image:url(../images/hogwardsHouses.jpg); /*
+    background-color: rgb(221, 194, 183);*
+    font-family: 'Kaushan Script', cursive;
+    background-size: cover;
+    font-size: 18px;
+}
+.form {
+    background-color: black;
+    color: rgb(248, 157, 126);
+    padding: 40px;
+    padding-top: 20px;
+    margin-top: 70px;
+    position: absolute;
+    /*width: 350px;*
+    margin-left: 20vw;
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow: 14px 14px 20px #5e5b51, -14px -14px 20px #9b967f;
+}*/
+body {
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    background-image:url(../images/beach.jpg); /*
+    background-color: rgb(221, 194, 183);*/
+    font-family: 'Kaushan Script', cursive;
+    background-size: cover;
+    /*font-size: 18px;*/
+    font-family: 'Pushster', cursive;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-size: 22px;
+}
+.form, .design{
+    background-color: rgba(0, 0, 0, 0.678);
+    background-color: #e4e0dc88;
+    
+    /*color: rgb(248, 157, 126);*/
+    color: #0d5a6d;
+    color: #0f7e9b;
+    color: #3a417a;
+    padding: 40px;
+    padding-top: 20px;
+    margin-top: 30px;
+    position: absolute;
+    width: 700px;
+    margin-left: 30vw;
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow: 14px 14px 20px #5e5b51, -14px -14px 20px #9b967f;
+    box-shadow: 7px 7px 10px #c2a3b0, -7px -7px 10px #f0c8de    ;
+    /* box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white; 
+    line-height: 1;*/
+}
+input::placeholder {
+    text-align: center;
+    font-family: 'Caveat', cursive;
+}
+input {
+    text-align: center;
+    background: #ecf0f3;
+    border-color: #5d420d10;
+    font-size: 20px;
+    border-radius: 50px;
+}
+.shadow input {   
+    box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+}
+.button {
+    margin-top: 20px;
+    background: burlywood;
+    background-color: #addbc0;
+    color: #c25265;
+    border-color: #5d420d10;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 900;
+    box-shadow: 6px 6px 6px #cbd1d1, -6px -6px 6px white;
+    transition: 0.5s;
+}
+.button:hover {
+    box-shadow: none;
+}
+#hat {
+    width: 250px;
+    box-sizing: border-box;
+    box-shadow: 7px 7px 10px #33312c, -7px -7px 10px #6d6a5e;
+    /* box-shadow: 7px 7px 10px #cbced1, -7px -7px 10px white; */
+}
+
+#house {
+    background-color: blueviolet;
+    margin-right: 200px;
+    margin-left: 270px;
+}
+
+.white {
+    background-color: rgba(255, 255, 255, 0);
+    color: rgba(252, 252, 252, 0);
+    box-shadow: none;
+    border-color: rgba(255, 255, 255, 0);
+}
